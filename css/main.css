@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #C9B5AB;
+  background-color: #C9b5Ab;
   color: #222;
   font-family: "PT Serif", serif;
   line-height: 1.5;
@@ -15,15 +15,15 @@ img {
   width: 100%;
 }
 a {
-  color: #8F2440;
+  color: #8f2440;
   text-decoration: none;
 }
 a:hover {
-  color: #3F1622;
+  color: #3f1622;
   text-decoration: none;
 }
 h1 h2 {
-  color: #3F1622;
+  color: #3f1622;
   font-family: "PT Sans", sans-serif;
 }
 h1 {
