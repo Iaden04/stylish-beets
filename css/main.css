@@ -1,62 +1,72 @@
 html {
   box-sizing: border-box;
-  background-color: #c9b5ab;
+  background-color: #C9B5AB;
   color: #222;
-  font-family: "pt Serif",serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
-
-*,
- *::before,
-  *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
-  margin: 0;
+  /* margin: 0; */
 }
-img{
+img {
   width: 100%;
 }
-
-a{
-  color: #8f2440;
+a {
+  color: #8F2440;
   text-decoration: none;
-
 }
-a:hover{
-  color: #3f1622;
-  text-decoration: underline;
+a:hover {
+  color: #3F1622;
+  text-decoration: none;
 }
-h1,h2 {
-  color: #3f1622;
-  font-family:  "PT Sans", sans-serif;
+h1 h2 {
+  color: #3F1622;
+  font-family: "PT Sans", sans-serif;
 }
-h1{
+h1 {
   font-size: 1.5rem;
 }
-nav{
+nav {
   font-family: "PT Sans", sans-serif;
-  font-size: 1.123rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
-nav ol {
+nav > ol > li {
   list-style-type: none;
 }
-figure{
+figure {
   text-align: center;
 }
-figcaption{
+figcaption {
   font-style: italic;
 }
-main figure p{
-  font-weight:bold;
-  font-size:  1.125rem;
+main figure + p {
+  font-weight: bold;
+  font-size: 1.125rem;
 }
-blockquote{
-  font-size: .8rem;
-}
-blockquote p{
+blockquote {
   font-size: 1.5rem;
-  font
+  font-style: italic;
+}
+blockquote strong {
+  font-weight: normal;
+}
+.serving {
+  font-style: italic;
+}
+dt {
+  font-weight: bold;
+}
+.varieties {
+  list-style-type: lower-greek;
+}
+aside ul {
+  font-size: .8rem;
+  list-style-type: circle;
+}
+small {
+  font-size: .8rem;
 }
